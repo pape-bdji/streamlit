@@ -16,7 +16,7 @@ st.write("Entrez les caractéristiques d'une personne pour prédire si elle a un
 # Charger les données
 @st.cache_data
 def load_data():
-    df = pd.read_csv('C:/Users/HP/OneDrive/Bureau/Financial_inclusion/Financial_inclusion_dataset.csv')
+    df = pd.read_csv('Financial_inclusion_dataset.csv')
     st.dataframe(df)
 
     # Supprimer les doublons
